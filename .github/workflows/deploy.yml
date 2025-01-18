@@ -1,0 +1,30 @@
+name: Deploy Django App
+
+on:
+  push:
+    branches:
+      - main  # Cambia esto si usas otra rama para deploy
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v1
+
+      - name: Login to Docker Hub
+        uses: docker/login-action@v1
+        with:
+          username: kendallrc  # Define en Secrets
+          password: ${{ secrets.DOCKER_PASSWORD }}  # Define en Secrets
+
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v2
+        with:
+          context: ./Healthphone/Backend  # Asegúrate que apunte al docker-compose correctamente
+          push: true
+          tags: kendallrc/healthphone:latest
