@@ -1,6 +1,6 @@
 # Documento original
 
-A continuación se adjunta el documento realizado en clase que se utilizó como guía para el desarrollo del Stage #3.
+A continuación se adjunta el documento realizado en clase que se utilizó como guía para el desarrollo.
 
 ![alt text](Images/ImagenGuia.jpeg)
 
