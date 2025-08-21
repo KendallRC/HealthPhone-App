@@ -4,7 +4,7 @@
 
 # Marca
 
-![alt text](./Healthphone/Documentation/Images/Logo.jpeg)
+![alt text](Documentation/Images/Logo.jpeg)
 
 # Descripción del proyecto
 
@@ -15,7 +15,7 @@ Diseño e implementación de una aplicación móvil en la que centros médicos y
 
 ## Imagen con los requerimientos decididos durante la reunión:
 
-![alt text](./Healthphone/Documentation/Images/ListaRequerimientos.jpeg)
+![alt text](Documentation/Images/ListaRequerimientos.jpeg)
 
 ## Requerimientos ordenados por prioridad 1, 2 y 3:
 
@@ -50,8 +50,8 @@ Diseño e implementación de una aplicación móvil en la que centros médicos y
 
 Se añade el primer diseño de arquitectura realizado durante la sesión con el profesor:
 
-![alt text](./Healthphone/Documentation/Images/DiagramaInicial.jpeg)
+![alt text](Documentation/Images/DiagramaInicial.jpeg)
 
 A continuación, el modelo final de la arquitectura del sistema:
 
-![alt text](./Healthphone/Documentation/Images/DiagramaFinal.png)
+![alt text](Documentation/Images/DiagramaFinal.png)
